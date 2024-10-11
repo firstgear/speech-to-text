@@ -1,10 +1,9 @@
-# Voice to Text Transcription Tool
+# Speech to Text Transcription Tool
 
 This tool is designed to process a folder containing voice recordings and transcribe them into text using the OpenAI Whisper model leveraging Hugging Face. 
 
 ## Features
 
-- Converts MP3 files to WAV format using `ffmpeg`.
 - Transcribes the WAV files into text using the Whisper model, leveraging  Hugging Face library. Whisper is classified as an Audio / Automatic Speech Recognition model (ASR).
 - Supports the processing of longer audio recordings by chunking them into manageable 30-second segments for transcription.
 - The turbo model (`openai/whisper-large-v3-turbo`) is designed to balance speed and accuracy
