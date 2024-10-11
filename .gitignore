@@ -1,0 +1,10 @@
+# Ignore all files by default
+*
+
+# Allow py, md, sh
+!*.py
+!*.md
+!*.sh
+
+# Allow the .gitignore file itself
+!.gitignore
