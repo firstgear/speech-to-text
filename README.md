@@ -12,7 +12,7 @@ This tool is designed to process a folder containing voice recordings and transc
 
 This tool handles longer recordings (longer than 10 seconds) by chunking the audio into 30-second segments, ensuring that each chunk is processed without overloading the memory. This approach allows for seamless transcription of long recordings while maintaining efficiency.
 
-## Installation and Setup
+## Setup and Run
 
 ```bash
 git clone ...
